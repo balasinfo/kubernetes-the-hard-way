@@ -37,6 +37,8 @@ Reference: [https://kubernetes.io/docs/tasks/tools/install-kubectl/](https://kub
 
 ```
 wget https://storage.googleapis.com/kubernetes-release/release/v1.13.0/bin/linux/amd64/kubectl
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+
 ```
 
 ```
@@ -45,6 +47,8 @@ chmod +x kubectl
 
 ```
 sudo mv kubectl /usr/local/bin/
+sudo mv ./kubectl /usr/local/bin/kubectl
+
 ```
 
 ### Verification
