@@ -1,6 +1,6 @@
 # Kubernetes Certificate Health Checker
 
-Author: [mmumshad@gmail.com](mmumshad@gmail.com)
+Author: [balasinfo@gmail.com](balasinfo@gmail.com)
 Version: v0.1
 [Kubernetes Certification Course](https://kodekloud.com/p/certified-kubernetes-administrator-with-practice-tests)
 

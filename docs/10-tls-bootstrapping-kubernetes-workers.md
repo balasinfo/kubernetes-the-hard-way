@@ -334,7 +334,7 @@ Things to note here:
 
 ## Step 7 Configure the Kubernetes Proxy
 
-In one of the previous steps we created the kube-proxy.kubeconfig file. Check [here](https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md) if you missed it.
+In one of the previous steps we created the kube-proxy.kubeconfig file. Check [here](https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md) if you missed it.
 
 ```
 worker-2$ sudo mv kube-proxy.kubeconfig /var/lib/kube-proxy/kubeconfig

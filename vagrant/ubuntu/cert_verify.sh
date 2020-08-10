@@ -108,11 +108,11 @@ check_cert_ca()
                     then
                         printf "${SUCCESS}CA cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the CA certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#certificate-authority\n"
+                        printf "${FAILED}Exiting...Found mismtach in the CA certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#certificate-authority\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}ca.crt / ca.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#certificate-authority\n"
+                printf "${FAILED}ca.crt / ca.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#certificate-authority\n"
                 exit 1
     fi
 }
@@ -135,11 +135,11 @@ check_cert_admin()
                     then
                         printf "${SUCCESS}admin cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the admin certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-admin-client-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the admin certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-admin-client-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}admin.crt / admin.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-admin-client-certificate\n"
+                printf "${FAILED}admin.crt / admin.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-admin-client-certificate\n"
                 exit 1
     fi
 }
@@ -161,11 +161,11 @@ check_cert_kcm()
                     then
                         printf "${SUCCESS}kube-controller-manager cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-controller-manager-client-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-controller-manager-client-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-controller-manager.crt / kube-controller-manager.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-controller-manager-client-certificate\n"
+                printf "${FAILED}kube-controller-manager.crt / kube-controller-manager.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-controller-manager-client-certificate\n"
                 exit 1
     fi
 }
@@ -187,11 +187,11 @@ check_cert_kp()
                     then
                         printf "${SUCCESS}kube-proxy cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-proxy certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kube-proxy-client-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-proxy certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kube-proxy-client-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-proxy.crt / kube-proxy.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kube-proxy-client-certificate\n"
+                printf "${FAILED}kube-proxy.crt / kube-proxy.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kube-proxy-client-certificate\n"
                 exit 1
     fi
 }
@@ -213,11 +213,11 @@ check_cert_ks()
                     then
                         printf "${SUCCESS}kube-scheduler cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-scheduler-client-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-scheduler-client-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-scheduler.crt / kube-scheduler.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-scheduler-client-certificate\n"
+                printf "${FAILED}kube-scheduler.crt / kube-scheduler.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-scheduler-client-certificate\n"
                 exit 1
     fi
 }
@@ -239,11 +239,11 @@ check_cert_api()
                     then
                         printf "${SUCCESS}kube-apiserver cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-apiserver certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kubernetes-api-server-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-apiserver certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kubernetes-api-server-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-apiserver.crt / kube-apiserver.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kubernetes-api-server-certificate\n"
+                printf "${FAILED}kube-apiserver.crt / kube-apiserver.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-kubernetes-api-server-certificate\n"
                 exit 1
     fi
 }
@@ -265,11 +265,11 @@ check_cert_etcd()
                     then
                         printf "${SUCCESS}etcd-server.crt / etcd-server.key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the ETCD certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-etcd-server-certificate\n"
+                        printf "${FAILED}Exiting...Found mismtach in the ETCD certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-etcd-server-certificate\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}etcd-server.crt / etcd-server.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-etcd-server-certificate\n"
+                printf "${FAILED}etcd-server.crt / etcd-server.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-etcd-server-certificate\n"
                 exit 1
     fi
 }
@@ -291,11 +291,11 @@ check_cert_sa()
                     then
                         printf "${SUCCESS}Service Account cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the Service Account certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-service-account-key-pair\n"
+                        printf "${FAILED}Exiting...Found mismtach in the Service Account certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-service-account-key-pair\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}service-account.crt / service-account.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-service-account-key-pair\n"
+                printf "${FAILED}service-account.crt / service-account.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/04-certificate-authority.md#the-service-account-key-pair\n"
                 exit 1
     fi
 }
@@ -319,11 +319,11 @@ check_cert_kpkubeconfig()
                     then
                         printf "${SUCCESS}kube-proxy kubeconfig cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-proxy kubeconfig certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-proxy-kubernetes-configuration-file\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-proxy kubeconfig certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-proxy-kubernetes-configuration-file\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-proxy kubeconfig file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-proxy-kubernetes-configuration-file\n"
+                printf "${FAILED}kube-proxy kubeconfig file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-proxy-kubernetes-configuration-file\n"
                 exit 1
     fi
 }
@@ -346,11 +346,11 @@ check_cert_kcmkubeconfig()
                     then
                         printf "${SUCCESS}kube-controller-manager kubeconfig cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager kubeconfig certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-controller-manager-kubernetes-configuration-file\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager kubeconfig certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-controller-manager-kubernetes-configuration-file\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-controller-manager kubeconfig file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-controller-manager-kubernetes-configuration-file\n"
+                printf "${FAILED}kube-controller-manager kubeconfig file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-controller-manager-kubernetes-configuration-file\n"
                 exit 1
     fi
 }
@@ -374,11 +374,11 @@ check_cert_kskubeconfig()
                     then
                         printf "${SUCCESS}kube-scheduler kubeconfig cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler kubeconfig certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-scheduler-kubernetes-configuration-file\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler kubeconfig certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-scheduler-kubernetes-configuration-file\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-scheduler kubeconfig file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-scheduler-kubernetes-configuration-file\n"
+                printf "${FAILED}kube-scheduler kubeconfig file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-kube-scheduler-kubernetes-configuration-file\n"
                 exit 1
     fi
 }
@@ -401,11 +401,11 @@ check_cert_adminkubeconfig()
                     then
                         printf "${SUCCESS}admin kubeconfig cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the admin kubeconfig certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-admin-kubernetes-configuration-file\n"
+                        printf "${FAILED}Exiting...Found mismtach in the admin kubeconfig certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-admin-kubernetes-configuration-file\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}admin kubeconfig file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-admin-kubernetes-configuration-file\n"
+                printf "${FAILED}admin kubeconfig file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/05-kubernetes-configuration-files.md#the-admin-kubernetes-configuration-file\n"
                 exit 1
     fi
 }
@@ -445,7 +445,7 @@ check_systemd_etcd()
                     then
                         printf "${SUCCESS}ETCD certificate, ca and key files are correct under systemd service\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the ETCD certificate, ca and keys. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
+                        printf "${FAILED}Exiting...Found mismtach in the ETCD certificate, ca and keys. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
                         exit 1
                 fi
 
@@ -454,12 +454,12 @@ check_systemd_etcd()
                     then
                         printf "${SUCCESS}ETCD initial-advertise-peer-urls, listen-peer-urls, listen-client-urls, advertise-client-urls are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the ETCD initial-advertise-peer-urls / listen-peer-urls / listen-client-urls / advertise-client-urls. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
+                        printf "${FAILED}Exiting...Found mismtach in the ETCD initial-advertise-peer-urls / listen-peer-urls / listen-client-urls / advertise-client-urls. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
                         exit 1
                 fi
 
             else
-                printf "${FAILED}etcd-server.crt / etcd-server.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
+                printf "${FAILED}etcd-server.crt / etcd-server.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md#configure-the-etcd-server\n"
                 exit 1
     fi
 }
@@ -498,11 +498,11 @@ check_systemd_api()
                     then
                         printf "${SUCCESS}kube-apiserver advertise-address/ client-ca-file/ etcd-cafile/ etcd-certfile/ etcd-keyfile/ kubelet-certificate-authority/ kubelet-client-certificate/ kubelet-client-key/ service-account-key-file/ tls-cert-file/ tls-private-key-file are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-apiserver systemd file, check advertise-address/ client-ca-file/ etcd-cafile/ etcd-certfile/ etcd-keyfile/ kubelet-certificate-authority/ kubelet-client-certificate/ kubelet-client-key/ service-account-key-file/ tls-cert-file/ tls-private-key-file. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-api-server\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-apiserver systemd file, check advertise-address/ client-ca-file/ etcd-cafile/ etcd-certfile/ etcd-keyfile/ kubelet-certificate-authority/ kubelet-client-certificate/ kubelet-client-key/ service-account-key-file/ tls-cert-file/ tls-private-key-file. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-api-server\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-apiserver.crt / kube-apiserver.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-api-server\n"
+                printf "${FAILED}kube-apiserver.crt / kube-apiserver.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-api-server\n"
                 exit 1
     fi
 }
@@ -533,11 +533,11 @@ check_systemd_kcm()
                     then
                         printf "${SUCCESS}kube-controller-manager cluster-signing-cert-file, cluster-signing-key-file, kubeconfig, root-ca-file, service-account-private-key-file  are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager cluster-signing-cert-file, cluster-signing-key-file, kubeconfig, root-ca-file, service-account-private-key-file ,More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-controller-manager\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-controller-manager cluster-signing-cert-file, cluster-signing-key-file, kubeconfig, root-ca-file, service-account-private-key-file ,More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-controller-manager\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-controller-manager.crt / kube-controller-manager.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-controller-manager\n"
+                printf "${FAILED}kube-controller-manager.crt / kube-controller-manager.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-controller-manager\n"
                 exit 1
     fi
 }
@@ -563,11 +563,11 @@ check_systemd_ks()
                     then
                         printf "${SUCCESS}kube-scheduler --kubeconfig, --address are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler --kubeconfig, --address, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-scheduler\n"
+                        printf "${FAILED}Exiting...Found mismtach in the kube-scheduler --kubeconfig, --address, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-scheduler\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}kube-scheduler.crt / kube-scheduler.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-scheduler\n"
+                printf "${FAILED}kube-scheduler.crt / kube-scheduler.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#configure-the-kubernetes-scheduler\n"
                 exit 1
     fi
 }
@@ -593,11 +593,11 @@ check_cert_worker_1()
                     then
                         printf "${SUCCESS}worker-1 cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the worker-1 certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#provisioning--kubelet-client-certificates\n"
+                        printf "${FAILED}Exiting...Found mismtach in the worker-1 certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#provisioning--kubelet-client-certificates\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}/var/lib/kubelet/worker-1.crt / /var/lib/kubelet/worker-1.key is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#provisioning--kubelet-client-certificates\n"
+                printf "${FAILED}/var/lib/kubelet/worker-1.crt / /var/lib/kubelet/worker-1.key is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#provisioning--kubelet-client-certificates\n"
                 exit 1
     fi
 }
@@ -621,11 +621,11 @@ check_cert_worker_1_kubeconfig()
                     then
                         printf "${SUCCESS}worker-1 kubeconfig cert and key are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubeconfig certificate and keys, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#the-kubelet-kubernetes-configuration-file\n"
+                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubeconfig certificate and keys, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#the-kubelet-kubernetes-configuration-file\n"
                         exit 1
                 fi
             else
-                printf "${FAILED}worker-1 /var/lib/kubelet/kubeconfig file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#the-kubelet-kubernetes-configuration-file\n"
+                printf "${FAILED}worker-1 /var/lib/kubelet/kubeconfig file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#the-kubelet-kubernetes-configuration-file\n"
                 exit 1
     fi
 }
@@ -654,7 +654,7 @@ check_cert_worker_1_kubelet()
                     then
                         printf "${SUCCESS}worker-1 kubelet config CA cert, resolvConf and Auth mode are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubelet config CA cert, resolvConf and Auth mode, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubelet\n"
+                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubelet config CA cert, resolvConf and Auth mode, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubelet\n"
                         exit 1
                 fi
 
@@ -667,12 +667,12 @@ check_cert_worker_1_kubelet()
                     then
                         printf "${SUCCESS}worker-1 kubelet systemd services are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubelet systemd services, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubelet\n"
+                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kubelet systemd services, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubelet\n"
                         exit 1
                 fi
 
             else
-                printf "${FAILED}worker-1 kubelet config, systemd services, tls cert and key file is missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md\n"
+                printf "${FAILED}worker-1 kubelet config, systemd services, tls cert and key file is missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md\n"
                 exit 1
     fi
 }
@@ -697,12 +697,12 @@ check_cert_worker_1_kp()
                     then
                         printf "${SUCCESS}worker-1 kube-proxy kubeconfig and configuration files are correct\n"
                     else
-                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kube-proxy kubeconfig and configuration files, More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubernetes-proxy\n"
+                        printf "${FAILED}Exiting...Found mismtach in the worker-1 kube-proxy kubeconfig and configuration files, More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubernetes-proxy\n"
                         exit 1
                 fi
 
             else
-                printf "${FAILED}worker-1 kube-proxy kubeconfig and configuration files are missing. More details: https://github.com/mmumshad/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubernetes-proxy\n"
+                printf "${FAILED}worker-1 kube-proxy kubeconfig and configuration files are missing. More details: https://github.com/balasinfo/kubernetes-the-hard-way/blob/master/docs/09-bootstrapping-kubernetes-workers.md#configure-the-kubernetes-proxy\n"
                 exit 1
     fi
 }
