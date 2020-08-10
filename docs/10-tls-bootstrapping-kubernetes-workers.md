@@ -48,7 +48,7 @@ master-1$ scp ca.crt worker-2:~/
 ### Download and Install Worker Binaries
 
 ```
-worker-1/2/..$ wget -q --show-progress --https-only --timestamping \
+worker 2> $ wget -q --show-progress --https-only --timestamping \
   https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl \
   https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kube-proxy \
   https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubelet
@@ -59,7 +59,7 @@ Reference: https://kubernetes.io/docs/setup/release/#node-binaries
 Create the installation directories:
 
 ```
-worker-1/2/..$ sudo mkdir -p \
+worker 2> $ sudo mkdir -p \
   /etc/cni/net.d \
   /opt/cni/bin \
   /var/lib/kubelet \
@@ -78,7 +78,7 @@ Install the worker binaries:
 ```
 ### Move the ca certificate
 
-`worker-1/2/..$ sudo mv ca.crt /var/lib/kubernetes/`
+`worker 2> $ sudo mv ca.crt /var/lib/kubernetes/`
 
 # Step 1 Create the Boostrap Token to be used by Nodes(Kubelets) to invoke Certificate API
 
@@ -120,6 +120,9 @@ EOF
 
 
 master-1$ kubectl create -f bootstrap-token-07401b.yaml
+
+Troubleshooting steps:
+Error:
 
 ```
 
